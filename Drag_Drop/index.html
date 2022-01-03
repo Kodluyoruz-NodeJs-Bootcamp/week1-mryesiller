@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag_Drop</title>
+    <link rel="stylesheet" href="/Assets/css/style.css">
+  </head>
+  <body>
+
+    <div class="dropzone1">
+      <h2>Goksel out of GUSTO</h2>
+      <img
+        id="image"
+        draggable="true"
+        ondragstart="event.dataTransfer.setData('text/plain',null)"
+        src="Assets/images/cry.png"
+        style="width: 100px; height: 100px"
+        alt="cry"
+      />
+    </div>
+
+    <div class="dropzone2"><h2>Goksel in GUSTO</h2></div>
+
+    <script src="/Assets/js/app.js"></script>
+  </body>
+</html>
